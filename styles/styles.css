@@ -214,6 +214,20 @@ html, body {
 
 }
 
+/*
+  register
+*/
+
+.main-register{
+    background-color: #fffbf6;
+    height: 80%;
+}
+
+/*Ayuda y Soporte*/
+.main-AyudaYSoporte{
+    background-color: #fffbf6;
+    height: 68.8%;
+}
 @media screen and (max-width: 1200px) {
     .container-register {
         flex-direction: column; /* Coloca los elementos uno debajo del otro */

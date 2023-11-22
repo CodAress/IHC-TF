@@ -1,0 +1,375 @@
+/* Estilos generales */
+.flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .h-screen {
+    height: 100vh;
+  }
+  
+  .bg-green-500 {
+    background-color: #34d399;
+  }
+  
+  /* Estilos del contenedor de la tarjeta */
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .border {
+    border-width: 1px;
+  }
+  
+  .bg-card {
+    background-color: #ffffff;
+  }
+  
+  .text-card-foreground {
+    color: #000000; /* Ajusta el color del texto según tu diseño */
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Estilos del contenido de la tarjeta */
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  /* Estilos de los elementos de espacio */
+  .space-y-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .space-y-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilos del título */
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  /* Estilos del párrafo */
+  .text-zinc-500 {
+    color: #4b5563;
+  }
+  
+  .dark .text-zinc-400 {
+    color: #cbd5e0;
+  }
+  
+  /* Estilos de la cuadrícula de entrada */
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  /* Estilos de las etiquetas y campos de entrada */
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .leading-none {
+    line-height: 1;
+  }
+  
+  .peer-disabled\:cursor-not-allowed:disabled {
+    cursor: not-allowed;
+  }
+  
+  .peer-disabled\:opacity-70:disabled {
+    opacity: 0.7;
+  }
+  
+  /* Estilos de las entradas de texto */
+  .flex {
+    display: flex;
+  }
+  
+  .h-10 {
+    height: 2.5rem;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .rounded-md {
+    border-radius: 0.375rem;
+  }
+  
+  .border-input {
+    border-color: #e5e7eb;
+  }
+  
+  .bg-background {
+    background-color: #f3f4f6;
+  }
+  
+  .px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .ring-offset-background {
+    --ring-offset-color: #f3f4f6;
+  }
+  
+  .file\:border-0 {
+    border: 0;
+  }
+  
+  .file\:bg-transparent {
+    background-color: transparent;
+  }
+  
+  .file\:text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .file\:font-medium {
+    font-weight: 500;
+  }
+  
+  .placeholder\:text-muted-foreground::placeholder {
+    color: #6b7280;
+  }
+  
+  .focus-visible\:outline-none:focus-visible {
+    outline: none;
+  }
+  
+  .focus-visible\:ring-2:focus-visible {
+    --ring-color: #3b82f6;
+  }
+  
+  .focus-visible\:ring-ring:focus-visible {
+    --ring-offset-color: #2563eb;
+  }
+  
+  .focus-visible\:ring-offset-2:focus-visible {
+    --ring-offset-color: #2563eb;
+  }
+  
+  /* Estilos de los botones */
+  .inline-flex {
+    display: inline-flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .rounded-md {
+    border-radius: 0.375rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .ring-offset-background {
+    --ring-offset-color: #f3f4f6;
+  }
+  
+  .transition-colors {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  
+  .focus-visible\:outline-none:focus-visible {
+    outline: none;
+  }
+  
+  .focus-visible\:ring-2:focus-visible {
+    --ring-color: #3b82f6;
+  }
+  
+  .focus-visible\:ring-ring:focus-visible {
+    --ring-offset-color: #2563eb;
+  }
+  
+  .focus-visible\:ring-offset-2:focus-visible {
+    --ring-offset-color: #2563eb;
+  }
+  
+  .disabled\:pointer-events-none:disabled {
+    pointer-events: none;
+  }
+  
+  .disabled\:opacity-50:disabled {
+    opacity: 0.5;
+  }
+  
+  /* Estilos del botón con hover */
+    .hover\:bg-primary:hover {
+    background-color: rgba(66, 153, 225, 0.9);
+  }
+  
+  .h-10 {
+    height: 2.5rem;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .bg-gray-800 {
+    background-color: #1f2937;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  /* Estilos de la entrada de texto */
+  .min-h-100 {
+    min-height: 100px;
+  }
+  
+  /* Estilos de la barra de selección */
+  [aria-controls="radix-:R9rulllla:"] {
+    position: relative;
+    border: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    overflow: hidden;
+  }
+  
+  [aria-expanded="false"] {
+    height: 100%;
+  }
+  
+  /* Estilos de la flecha de la barra de selección */
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    opacity: 0.5;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  
+  /* Estilos del cuadro de opciones de la barra de selección */
+  [aria-controls="radix-:R9rulllla:"][aria-expanded="true"] {
+    height: auto;
+  }
+  
+  /* Estilos de la barra de desplazamiento */
+  [aria-controls="radix-:R9rulllla:"][aria-expanded="true"]::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  [aria-controls="radix-:R9rulllla:"][aria-expanded="true"]::-webkit-scrollbar-thumb {
+    background-color: #4b5563;
+    border-radius: 0.25rem;
+  }
+  
+  /* Estilos de las opciones de la barra de selección */
+  [data-state="open"] {
+    opacity: 1;
+    transform: none;
+  }
+  
+  /* Estilos de las opciones de la barra de selección */
+  [data-state="closed"] {
+    opacity: 0;
+    transform: translateY(-0.5rem);
+  }
+  
+  /* Estilos de las opciones de la barra de selección */
+  [data-state="closed"][data-disabled="true"] {
+    pointer-events: none;
+  }
+  
+  /* Estilos del grupo de opciones de la barra de selección */
+  [aria-labelledby="radix-:R9rulllla:"][aria-hidden="true"] {
+    display: none;
+  }
+  
+  /* Estilos del grupo de opciones de la barra de selección */
+  [aria-labelledby="radix-:R9rulllla:"][aria-hidden="false"] {
+    display: block;
+  }
+  
+  /* Estilos de las etiquetas de opciones de la barra de selección */
+  [role="option"] {
+    position: relative;
+    min-height: 2.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilos de la barra de desplazamiento en la barra de selección */
+  [aria-controls="radix-:R9rulllla:"][aria-expanded="true"]::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  /* Estilos de la barra de desplazamiento en la barra de selección */
+  [aria-controls="radix-:R9rulllla:"][aria-expanded="true"]::-webkit-scrollbar-thumb {
+    background-color: #4b5563;
+    border-radius: 0.25rem;
+  }
+  
+  /* Estilos del área de selección en la barra de selección */
+  [aria-controls="radix-:R9rulllla:"][aria-expanded="true"]::-webkit-scrollbar-track {
+    background-color: #f3f4f6;
+  }
+  
