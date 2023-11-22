@@ -8,7 +8,7 @@
      <meta name="keywords" content="arte, galeria, virtual, pintura, escultura, dibujo, artista, artesano, artesania, artesanal, artes, artico, galeryartico, galeriaartico, galeriaartico.com, galeryartico.com">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!---Titulo--->
-     <title>GaleryArtico | Ayuda y Soporte</title>
+     <title>GaleryArtico | Calificacion</title>
      <!---Favicon--->
      <link rel="icon" href="imagenes/favicon.png" type="image/x-icon">
      <!---Bootstrap--->
@@ -20,7 +20,7 @@
      <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-	<header class="header">
+    <header class="header">
 		<nav class="navbar navbar-expand-md navbar-ligth">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="index.html">
@@ -55,60 +55,54 @@
 		</nav>
 	</header>
 
-    <main class="main-AyudaYSoporte container-fluid">
-
+    <main class="main-calificacion container-fluid">
         <div class="container mt-5">
-            <h2 class="mb-4">Contáctanos</h2>
-            
-            <!-- Formulario de Contacto -->
+            <h2 class="mb-4">Calificar Producto</h2>
+        
+            <!-- Formulario de Calificación -->
             <form>
-                <!-- Nombre -->
+                <!-- Selección de Calificación -->
                 <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+                    <label for="calificacion" class="form-label">Calificación</label>
+                    <select class="form-select" id="calificacion" required>
+                        <option value="" selected disabled>Selecciona una calificación</option>
+                        <option value="5">5 Estrellas</option>
+                        <option value="4">4 Estrellas</option>
+                        <option value="3">3 Estrellas</option>
+                        <option value="2">2 Estrellas</option>
+                        <option value="1">1 Estrella</option>
+                    </select>
                 </div>
-                
-                <!-- Apellido -->
+        
+                <!-- Comentario -->
                 <div class="mb-3">
-                    <label for="apellido" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido" required>
+                    <label for="comentario" class="form-label">Comentario</label>
+                    <textarea class="form-control" id="comentario" rows="4" placeholder="Escribe tu comentario aquí" required></textarea>
                 </div>
-                
-                <!-- Correo -->
-                <div class="mb-3">
-                    <label for="correo" class="form-label">Correo</label>
-                    <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo electrónico" required>
-                </div>
-
-                <!-- Mensaje -->
-                <div class="mb-3">
-                    <label for="mensaje" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
-                </div>
-                
-                <!-- Botón de Enviar Mensaje -->
-                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+        
+                <!-- Botón de Enviar Calificación -->
+                <button type="submit" class="btn btn-primary">Enviar Calificación</button>
             </form>
         </div>
     </main>
-        
-        <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
-            <!--
-                <img class="footer-logo" src="" alt="Logo del footer">
-            -->
-            
-            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-twitter"></i>
-                </a>
-                <a href="https://github.com/CodAress" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github"></i>
-                </a>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-instagram"></i>
+
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <!--
+            <img class="footer-logo" src="" alt="Logo del footer">
+        -->
+
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://github.com/CodAress" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-instagram"></i>
             </a>
             <a href="mailto:u202122633@upc.edu.pe" target="_blank" rel="noopener noreferrer">
               <i class="bi bi-envelope"></i>

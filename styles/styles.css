@@ -228,6 +228,11 @@ html, body {
     background-color: #fffbf6;
     height: 68.8%;
 }
+/*Calificacion*/
+.main-calificacion{
+    background-color: #fffbf6;
+    height: 69.01%;
+}
 @media screen and (max-width: 1200px) {
     .container-register {
         flex-direction: column; /* Coloca los elementos uno debajo del otro */
